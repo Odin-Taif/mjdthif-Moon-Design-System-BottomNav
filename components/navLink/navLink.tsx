@@ -13,11 +13,10 @@ export const NavLink = ({ linkHref, linkName, icon }: LinkData) => {
         className={
           router.pathname === `${linkHref}` ? style.active : style.notActive
         }
-        whileHover={{ scale: 0.95 }}
         whileTap={{ scale: 1.1 }}
       >
         <span>{icon}</span>
-        {linkName}
+        <span> {linkName}</span>
       </motion.div>
     </Link>
   );

@@ -3,9 +3,9 @@ import { ReactNode } from "react";
 import { NavLink } from "../navLink/navLink";
 //-=-=-=-=-=-=-Icons imports-=-=-=-=-=
 import { BiHomeAlt } from "react-icons/bi";
-import { AiFillCustomerService } from "react-icons/ai";
+import { AiFillCustomerService, AiOutlineContacts } from "react-icons/ai";
 import { FcAbout } from "react-icons/fc";
-import { FcBusinessContact } from "react-icons/fc";
+
 //-=-=-=-=-=-=style=-=-=-=-=-=-=-=-
 import style from "./bottomNav.module.scss";
 
@@ -39,7 +39,7 @@ export const links: LinkData[] = [
     id: 4,
     linkName: "Contact",
     linkHref: "/contact",
-    icon: <FcBusinessContact size={20} />,
+    icon: <AiOutlineContacts size={20} />,
   },
 ];
 
