@@ -1,6 +1,6 @@
-import { ReactNode } from "react";
 //-=-=-=-=-=-=-componenets imports-=-=-=-=-=
 import { NavLink } from "../navLink/navLink";
+
 //-=-=-=-=-=-=-Icons imports-=-=-=-=-=
 import { BiHomeAlt } from "react-icons/bi";
 import { AiFillCustomerService, AiOutlineContacts } from "react-icons/ai";
@@ -8,13 +8,6 @@ import { FcAbout } from "react-icons/fc";
 
 //-=-=-=-=-=-=style=-=-=-=-=-=-=-=-
 import style from "./bottomNav.module.scss";
-
-export interface LinkData {
-  id: number;
-  linkName: string;
-  linkHref: string;
-  icon: ReactNode;
-}
 
 export const links: LinkData[] = [
   {

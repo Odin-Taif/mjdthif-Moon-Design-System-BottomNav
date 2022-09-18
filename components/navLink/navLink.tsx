@@ -1,9 +1,7 @@
 import Link from "next/link";
-import { LinkData } from "../bottomNavigation/bottomNav";
-
+import { useRouter } from "next/router";
 import { motion } from "framer-motion";
 import style from "./navLink.module.scss";
-import { useRouter } from "next/router";
 
 export const NavLink = ({ linkHref, linkName, icon }: LinkData) => {
   const router = useRouter();
