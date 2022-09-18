@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  border-radius: 0.5rem;
+  bottom: 1rem;
+  left: 1rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
