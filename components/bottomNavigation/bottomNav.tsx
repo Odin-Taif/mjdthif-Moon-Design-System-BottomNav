@@ -41,8 +41,8 @@ export const links: LinkData[] = [
 const BottomNav = () => {
   return (
     <div className={style.container}>
-      {links.map((item: LinkData) => (
-        <NavLink {...item} />
+      {links.map((item: LinkData, index: number) => (
+        <NavLink {...item} key={index} />
       ))}
     </div>
   );
